@@ -1,7 +1,7 @@
 import { Card, CardHeader, Grid } from '@mui/material';
 
 import { Layout } from '@/layouts';
-import { EntriesList, NewEntry } from '@/components';
+import { EntriesList } from '@/components';
 
 export default function HomePage() {
   return (

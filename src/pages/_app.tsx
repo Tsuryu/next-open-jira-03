@@ -3,7 +3,7 @@ import { CssBaseline, ThemeProvider } from '@mui/material';
 import { SnackbarProvider } from 'notistack';
 
 import '@/styles/globals.css';
-import { darkTheme, lightTheme } from '@/themes';
+import { darkTheme } from '@/themes';
 import { UIProvider, EntriesProvider } from '@/context';
 
 export default function App({ Component, pageProps }: AppProps) {
